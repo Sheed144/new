@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.nav-bar {
+    background-color:rgb(16, 74, 180);
+    width: 100%;
+}
+.nav-items {
+    justify-content: space-between;
+    list-style-type: none;
+}
+.nav-items li a{
+    padding: 14px 16px;
+    text-decoration: none;
+    color: rgb(248, 248, 248);
+    font-size: larger;
+}
+.title{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(16, 74, 180);
+}
+li {
+float: left;
+
+}  
+li a, .dropbtn {
+    display: inline-block;
+    color: rgb(11, 11, 11);
+    text-align: center;
+    justify-content: space-between;
+    padding: 14px 16px;
+    text-decoration: none;
+}  
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: #0779f4;
+} 
+li.dropdown {
+    display: inline-block;
+}  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #0779f4;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}  
+.dropdown-content a:hover {background-color: #f1f1f1} 
+.dropdown:hover .dropdown-content {
+    display: block;
+}  
+
+.header{
+    font-size:xx-large;
+    padding-left: 35px;
+}
+.hamlet{
+    box-shadow: 1rem 1rem 0.5rem rgba(0,0,0,0.1);
+    background-color:rgb(102, 141, 212);
+    height: 350px;
+    border-radius: 25px;
+    margin-top: 50px;
+    right: 50px;
+}
+.h-1{
+    margin-top: 20px;
+    position: absolute;
+    width: 200px;
+    height: 300px;
+    border-radius: 25px;
+    margin-left: 50px;
+    box-shadow: 1rem 1rem 0.5rem rgba(0,0,0,0.1);
+}
+.hamlet-text{
+    position: absolute;
+    left: 20%;
+    padding-top: 50px;
+}.buy-button{
+    border-radius: 25px;
+    margin-top: 1rem;
+    background-color: rgb(9, 79, 73);
+    color: white;
+    border: none;
+    box-shadow: 1rem 1rem 0.5rem rgba(0,0,0,0.1);
+    font-size: 1.5rem;
+    padding: 0.5rem;
+}
